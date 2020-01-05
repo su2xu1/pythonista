@@ -9,8 +9,10 @@ from PIL import Image, ExifTags
 ##焦点距離：FocalLength
 ##絞り:FNumber
 ##シャッタースピード：ShutterSpeed
-my_exif_dict={36867:'DateCreated', 272:'Model',42035:'LensMake',42036:'LensModel'
-,33434:'ExposureTime',33437:'FNumber',
+my_exif_dict={36867:'DateCreated',
+271:'Make',272:'Model',
+272:'Model',42035:'LensMake',42036:'LensModel',
+33434:'ExposureTime',33437:'FNumber',
 34855:'ISOSpeedRatings',37386:'FocalLength'}
 
 value = sys.argv
